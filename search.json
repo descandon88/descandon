@@ -1,0 +1,272 @@
+[
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "📍 Montevideo, Uruguay · 📧 david.escandon.v@gemail.com · LinkedIn · GitHub",
+    "crumbs": [
+      "Resume / CV"
+    ]
+  },
+  {
+    "objectID": "resume.html#work-experience",
+    "href": "resume.html#work-experience",
+    "title": "Resume",
+    "section": "💼 Work Experience",
+    "text": "💼 Work Experience\n\nAnalytics Engineer | BI & Data Operations Lead · Retailogic\nMay 2025 – Present\n\nDesigned and delivered end-to-end data pipelines, enabling reliable data ingestion, transformation, and analytics-ready datasets for business reporting\nTranslated business requirements into scalable data solutions, aligning technical implementations with operational needs\nOrchestrated data workflows using Prefect\nBuilt and maintained SQL and dbt transformations, structuring data for scalable and consistent analytical use\nDeveloped data models and datamarts, reducing dependency on manual reporting and improving data accessibility\nImplemented containerized data workflows using Docker and Azure Container Registry, enabling more scalable and reproducible data processing\nLeveraged Azure services (Storage Accounts, container-based processing) to support data ingestion and data landing architectures\nInitiated implementation of data pipelines using Azure Data Factory, expanding orchestration and integration capabilities\nEstablished data governance practices, improving data quality, consistency, and documentation standards\nManaged Power BI environment and delivered KPI dashboards, enabling better visibility into business performance\n\n\n\nData Analyst | BI Developer · Cognus LATAM\nAug 2023 – Apr 2025\n\nDeveloped and maintained ETL pipelines using Pentaho PDI, ensuring reliable data ingestion and transformation across systems\nBuilt SQL-based transformations and optimized queries, improving performance and usability of analytical datasets\nAutomated batch workflows using Unix scripting, increasing efficiency and reducing processing time\nDesigned dashboards and visualizations in Tableau, enabling stakeholders to access and interpret key business metrics\nPerformed exploratory data analysis (EDA), identifying trends, inconsistencies, and data quality issues\nCollaborated with cross-functional teams in Agile environments, aligning data solutions with business objectives\n\n\n\nBusiness & Engineering Roles · Ciapromase\n2009 – 2023\n\nLed technical and business projects across industrial and commercial domains\nPerformed data analysis on sales, operations, and market segments\nSupported strategic decision-making through data insights",
+    "crumbs": [
+      "Resume / CV"
+    ]
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "🎓 Education",
+    "text": "🎓 Education\n\nBSc Computer Science · University Name\n2017 – 2021",
+    "crumbs": [
+      "Resume / CV"
+    ]
+  },
+  {
+    "objectID": "resume.html#certifications",
+    "href": "resume.html#certifications",
+    "title": "Resume",
+    "section": "🏅 Certifications",
+    "text": "🏅 Certifications\n\n\n\nCertification\nIssuer\nCredential\n\n\n\n\nFull Stack Web Developer\nSenpai Academy\nView\n\n\nIntroduction to Data Engineering\nAWS & DeepLearning.AI (Coursera)\nView",
+    "crumbs": [
+      "Resume / CV"
+    ]
+  },
+  {
+    "objectID": "resume.html#technical-skills",
+    "href": "resume.html#technical-skills",
+    "title": "Resume",
+    "section": "🛠️ Technical Skills",
+    "text": "🛠️ Technical Skills\n\n\n\n\n\n\n\nCategory\nTechnologies\n\n\n\n\nLanguages\nSQL, Python (ETL, scripts)\n\n\nData Engineering\nETL, Data Pipelines, Prefect, dbt\n\n\nCloud & Infrastructure\nAzure (VM, Storage, Container Registry, Container Jobs, ADF)\n\n\nData Modeling\nData Warehousing, Relational Databases\n\n\nBI Tools\nPower BI, Tableau\n\n\nTools\nDocker, Git, Pentaho PDI, Unix/Linux\n\n\nDatabases\nPostgreSQL, MSSQL",
+    "crumbs": [
+      "Resume / CV"
+    ]
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "A collection of data engineering, analytics, and BI projects.\n\n\n\n\n\n\n\n\n\n\n\nEnd-to-End ELT Pipeline with dbt + Airflow\n\n\n\nData Engineering\n\ndbt\n\nAirflow\n\nBigQuery\n\n\n\nAutomated data pipeline ingesting 500M+ records/day from 10+ sources into BigQuery\n\n\n\nJun 1, 2024\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "education.html",
+    "href": "education.html",
+    "title": "Education",
+    "section": "",
+    "text": "Universidad de la República\n\n\n\nUniversidad de la República\n\n\n\nESPOL — Escuela Superior Politécnica del Litoral",
+    "crumbs": [
+      "Education"
+    ]
+  },
+  {
+    "objectID": "education.html#academic-background",
+    "href": "education.html#academic-background",
+    "title": "Education",
+    "section": "",
+    "text": "Universidad de la República\n\n\n\nUniversidad de la República\n\n\n\nESPOL — Escuela Superior Politécnica del Litoral",
+    "crumbs": [
+      "Education"
+    ]
+  },
+  {
+    "objectID": "certifications.html",
+    "href": "certifications.html",
+    "title": "Certifications",
+    "section": "",
+    "text": "Senpai Academy View credential\n\n\n\nAWS & DeepLearning.AI — Coursera View credential",
+    "crumbs": [
+      "Certifications"
+    ]
+  },
+  {
+    "objectID": "certifications.html#certifications",
+    "href": "certifications.html#certifications",
+    "title": "Certifications",
+    "section": "",
+    "text": "Senpai Academy View credential\n\n\n\nAWS & DeepLearning.AI — Coursera View credential",
+    "crumbs": [
+      "Certifications"
+    ]
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Why I Switched from SQL Stored Procedures to dbt",
+    "section": "",
+    "text": "Write your post here. Quarto supports Python/R code blocks, Mermaid diagrams, LaTeX math, and standard Markdown.",
+    "crumbs": [
+      "Blog"
+    ]
+  },
+  {
+    "objectID": "blog/index.html#introduction",
+    "href": "blog/index.html#introduction",
+    "title": "Why I Switched from SQL Stored Procedures to dbt",
+    "section": "",
+    "text": "Write your post here. Quarto supports Python/R code blocks, Mermaid diagrams, LaTeX math, and standard Markdown.",
+    "crumbs": [
+      "Blog"
+    ]
+  },
+  {
+    "objectID": "blog/index.html#code-example",
+    "href": "blog/index.html#code-example",
+    "title": "Why I Switched from SQL Stored Procedures to dbt",
+    "section": "Code Example",
+    "text": "Code Example\nimport duckdb\n\nquery = \"\"\"\nSELECT\n    customer_id,\n    SUM(order_total) AS lifetime_value,\n    COUNT(*) AS total_orders\nFROM orders\nWHERE status = 'completed'\nGROUP BY 1\n\"\"\"\nduckdb.sql(query).show()",
+    "crumbs": [
+      "Blog"
+    ]
+  },
+  {
+    "objectID": "blog/index.html#conclusion",
+    "href": "blog/index.html#conclusion",
+    "title": "Why I Switched from SQL Stored Procedures to dbt",
+    "section": "Conclusion",
+    "text": "Conclusion\nYour takeaways here.",
+    "crumbs": [
+      "Blog"
+    ]
+  },
+  {
+    "objectID": "blog/posts/first-post/index.html",
+    "href": "blog/posts/first-post/index.html",
+    "title": "Why I Switched from SQL Stored Procedures to dbt",
+    "section": "",
+    "text": "Write your post here. Quarto supports Python/R code blocks, Mermaid diagrams, LaTeX math, and standard Markdown."
+  },
+  {
+    "objectID": "blog/posts/first-post/index.html#introduction",
+    "href": "blog/posts/first-post/index.html#introduction",
+    "title": "Why I Switched from SQL Stored Procedures to dbt",
+    "section": "",
+    "text": "Write your post here. Quarto supports Python/R code blocks, Mermaid diagrams, LaTeX math, and standard Markdown."
+  },
+  {
+    "objectID": "blog/posts/first-post/index.html#code-example",
+    "href": "blog/posts/first-post/index.html#code-example",
+    "title": "Why I Switched from SQL Stored Procedures to dbt",
+    "section": "Code Example",
+    "text": "Code Example\nimport duckdb\n\nquery = \"\"\"\nSELECT\n    customer_id,\n    SUM(order_total) AS lifetime_value,\n    COUNT(*) AS total_orders\nFROM orders\nWHERE status = 'completed'\nGROUP BY 1\n\"\"\"\nduckdb.sql(query).show()"
+  },
+  {
+    "objectID": "blog/posts/first-post/index.html#conclusion",
+    "href": "blog/posts/first-post/index.html#conclusion",
+    "title": "Why I Switched from SQL Stored Procedures to dbt",
+    "section": "Conclusion",
+    "text": "Conclusion\nYour takeaways here."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m open to remote opportunities as a Data Engineer, Analytics Engineer, BI Developer, or Data Analyst.\n\n\n\n📧 Email\ndavid.escandon.v@gemail.com\n\n\n💼 LinkedIn\nlinkedin.com/in/davidescandonv\n\n\n🐙 GitHub\ngithub.com/daescandon88\n\n\n📍 Location\nMontevideo, Uruguay (Remote-first)\n\n\n\n\nCurrently available for new opportunities.",
+    "crumbs": [
+      "Contact"
+    ]
+  },
+  {
+    "objectID": "contact.html#lets-connect",
+    "href": "contact.html#lets-connect",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m open to remote opportunities as a Data Engineer, Analytics Engineer, BI Developer, or Data Analyst.\n\n\n\n📧 Email\ndavid.escandon.v@gemail.com\n\n\n💼 LinkedIn\nlinkedin.com/in/davidescandonv\n\n\n🐙 GitHub\ngithub.com/daescandon88\n\n\n📍 Location\nMontevideo, Uruguay (Remote-first)\n\n\n\n\nCurrently available for new opportunities.",
+    "crumbs": [
+      "Contact"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I’m David Escandón 👋",
+    "section": "",
+    "text": "I build data systems that turn raw information into decisions. With experience across the full data stack — from ingestion pipelines to executive dashboards — I help teams move faster with data they can trust.\n\nView Projects Read Blog Download CV",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "Hi, I’m David Escandón 👋",
+    "section": "What I do",
+    "text": "What I do\n\n\nData Engineering\nBuilding reliable ELT pipelines with dbt, Airflow, and cloud-native tools (BigQuery, Snowflake, Redshift).\n\n\nAnalytics Engineering\nDesigning semantic layers and dimensional models so analysts can self-serve with confidence.\n\n\nBI & Visualization\nDelivering dashboards in Power BI, Looker, and Metabase that actually get used.",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "index.html#latest-from-the-blog",
+    "href": "index.html#latest-from-the-blog",
+    "title": "Hi, I’m David Escandón 👋",
+    "section": "Latest from the blog",
+    "text": "Latest from the blog\n→ See all posts",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "index.html#tech-stack",
+    "href": "index.html#tech-stack",
+    "title": "Hi, I’m David Escandón 👋",
+    "section": "Tech stack",
+    "text": "Tech stack\n\n\n\nArea\nTools\n\n\n\n\nLanguages\nPython · SQL · Bash\n\n\nPipelines\ndbt · Airflow · Fivetran · Spark\n\n\nCloud\nGCP · AWS · Azure\n\n\nBI\nPower BI · Looker · Metabase\n\n\nDatabases\nPostgreSQL · BigQuery · Snowflake · DuckDB\n\n\nDevOps\nDocker · Terraform · GitHub Actions\n\n\n\n\nOpen to remote opportunities — let’s talk.",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "projects/project-1.html",
+    "href": "projects/project-1.html",
+    "title": "End-to-End ELT Pipeline with dbt + Airflow",
+    "section": "",
+    "text": "Brief description of the problem this project solves."
+  },
+  {
+    "objectID": "projects/project-1.html#overview",
+    "href": "projects/project-1.html#overview",
+    "title": "End-to-End ELT Pipeline with dbt + Airflow",
+    "section": "",
+    "text": "Brief description of the problem this project solves."
+  },
+  {
+    "objectID": "projects/project-1.html#architecture",
+    "href": "projects/project-1.html#architecture",
+    "title": "End-to-End ELT Pipeline with dbt + Airflow",
+    "section": "Architecture",
+    "text": "Architecture\n\n\n\n\n\nflowchart LR\n    A[Source APIs] --&gt; B[Airflow DAG]\n    B --&gt; C[Raw Layer - BigQuery]\n    C --&gt; D[dbt Transformations]\n    D --&gt; E[Mart Layer]\n    E --&gt; F[Looker Dashboard]"
+  },
+  {
+    "objectID": "projects/project-1.html#key-decisions",
+    "href": "projects/project-1.html#key-decisions",
+    "title": "End-to-End ELT Pipeline with dbt + Airflow",
+    "section": "Key Decisions",
+    "text": "Key Decisions\n\nWhy dbt over stored procedures\nOrchestration with Airflow vs alternatives"
+  },
+  {
+    "objectID": "projects/project-1.html#results",
+    "href": "projects/project-1.html#results",
+    "title": "End-to-End ELT Pipeline with dbt + Airflow",
+    "section": "Results",
+    "text": "Results\n\n⚡ 35% cost reduction\n📈 Pipeline reliability: 99.8% SLA"
+  },
+  {
+    "objectID": "projects/project-1.html#links",
+    "href": "projects/project-1.html#links",
+    "title": "End-to-End ELT Pipeline with dbt + Airflow",
+    "section": "Links",
+    "text": "Links\nGitHub Repo"
+  }
+]
