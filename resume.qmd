@@ -42,12 +42,6 @@ title: "Resume"
 - Performed data analysis on sales, operations, and market segments
 - Supported strategic decision-making through data insights
 
----
-
-## 🎓 Education
-
-### BSc Computer Science · University Name
-*2017 – 2021*
 
 ---
 

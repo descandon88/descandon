@@ -27,7 +27,7 @@ website:
       - text: "Certifications"
         href: certifications.qmd
         icon: patch-check
-      - text: "Resume / CV"
+      - text: "Experience"
         href: resume.qmd
         icon: file-earmark-person
       - text: "Contact"
