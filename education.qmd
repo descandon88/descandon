@@ -1,0 +1,20 @@
+---
+title: "Education"
+---
+
+## Academic Background
+
+::: {.edu-entry}
+### MSc in Economics
+**Universidad de la República**
+:::
+
+::: {.edu-entry}
+### Postgraduate in Economics
+**Universidad de la República**
+:::
+
+::: {.edu-entry}
+### Electronic Engineering Degree
+**ESPOL — Escuela Superior Politécnica del Litoral**
+:::

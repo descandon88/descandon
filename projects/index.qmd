@@ -1,0 +1,13 @@
+---
+title: "Projects"
+listing:
+  contents: "*.qmd"
+  exclude:
+    filename: "index.qmd"
+  type: grid
+  grid-columns: 2
+  fields: [title, description, categories, date]
+  sort: "date desc"
+---
+
+A collection of data engineering, analytics, and BI projects.

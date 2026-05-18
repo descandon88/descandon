@@ -1,0 +1,32 @@
+---
+title: "End-to-End ELT Pipeline with dbt + Airflow"
+description: "Automated data pipeline ingesting 500M+ records/day from 10+ sources into BigQuery"
+categories: [Data Engineering, dbt, Airflow, BigQuery]
+date: 2024-06-01
+image: ../assets/img/project1.png
+---
+
+## Overview
+Brief description of the problem this project solves.
+
+## Architecture
+
+```{mermaid}
+flowchart LR
+    A[Source APIs] --> B[Airflow DAG]
+    B --> C[Raw Layer - BigQuery]
+    C --> D[dbt Transformations]
+    D --> E[Mart Layer]
+    E --> F[Looker Dashboard]
+```
+
+## Key Decisions
+- Why dbt over stored procedures
+- Orchestration with Airflow vs alternatives
+
+## Results
+- ⚡ 35% cost reduction
+- 📈 Pipeline reliability: 99.8% SLA
+
+## Links
+[GitHub Repo](https://github.com/you/project){.btn .btn-primary}

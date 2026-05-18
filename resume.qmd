@@ -1,0 +1,74 @@
+---
+title: "Resume"
+---
+
+:::{.resume-header}
+# David Escandón
+📍 Montevideo, Uruguay · 📧 david.escandon.v@gemail.com · [LinkedIn](https://linkedin.com/in/davidescandonv) · [GitHub](https://github.com/daescandon88)
+:::
+
+---
+
+## 💼 Work Experience
+
+### Analytics Engineer | BI & Data Operations Lead · Retailogic
+*May 2025 – Present*
+
+- Designed and delivered end-to-end data pipelines, enabling reliable data ingestion, transformation, and analytics-ready datasets for business reporting
+- Translated business requirements into scalable data solutions, aligning technical implementations with operational needs
+- Orchestrated data workflows using Prefect
+- Built and maintained SQL and dbt transformations, structuring data for scalable and consistent analytical use
+- Developed data models and datamarts, reducing dependency on manual reporting and improving data accessibility
+- Implemented containerized data workflows using Docker and Azure Container Registry, enabling more scalable and reproducible data processing
+- Leveraged Azure services (Storage Accounts, container-based processing) to support data ingestion and data landing architectures
+- Initiated implementation of data pipelines using Azure Data Factory, expanding orchestration and integration capabilities
+- Established data governance practices, improving data quality, consistency, and documentation standards
+- Managed Power BI environment and delivered KPI dashboards, enabling better visibility into business performance
+
+### Data Analyst | BI Developer · Cognus LATAM
+*Aug 2023 – Apr 2025*
+
+- Developed and maintained ETL pipelines using Pentaho PDI, ensuring reliable data ingestion and transformation across systems
+- Built SQL-based transformations and optimized queries, improving performance and usability of analytical datasets
+- Automated batch workflows using Unix scripting, increasing efficiency and reducing processing time
+- Designed dashboards and visualizations in Tableau, enabling stakeholders to access and interpret key business metrics
+- Performed exploratory data analysis (EDA), identifying trends, inconsistencies, and data quality issues
+- Collaborated with cross-functional teams in Agile environments, aligning data solutions with business objectives
+
+### Business & Engineering Roles · Ciapromase
+*2009 – 2023*
+
+- Led technical and business projects across industrial and commercial domains
+- Performed data analysis on sales, operations, and market segments
+- Supported strategic decision-making through data insights
+
+---
+
+## 🎓 Education
+
+### BSc Computer Science · University Name
+*2017 – 2021*
+
+---
+
+## 🏅 Certifications
+
+| Certification | Issuer | Credential |
+|---|---|---|
+| Full Stack Web Developer | Senpai Academy | [View](https://credsverse.com/credentials/9b5fef11-38a0-4894-8f88-c1f1fc641c19) |
+| Introduction to Data Engineering | AWS & DeepLearning.AI (Coursera) | [View](https://coursera.org/share/d4992b241a249e87b4d257266a2c303d) |
+
+---
+
+## 🛠️ Technical Skills
+
+| Category | Technologies |
+|---|---|
+| Languages | SQL, Python (ETL, scripts) |
+| Data Engineering | ETL, Data Pipelines, Prefect, dbt |
+| Cloud & Infrastructure | Azure (VM, Storage, Container Registry, Container Jobs, ADF) |
+| Data Modeling | Data Warehousing, Relational Databases |
+| BI Tools | Power BI, Tableau |
+| Tools | Docker, Git, Pentaho PDI, Unix/Linux |
+| Databases | PostgreSQL, MSSQL |
+

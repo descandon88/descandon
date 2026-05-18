@@ -1,0 +1,19 @@
+---
+title: "Contact"
+---
+
+## Let's Connect
+
+I'm open to remote opportunities as a **Data Engineer**, **Analytics Engineer**,
+**BI Developer**, or **Data Analyst**.
+
+| | |
+|---|---|
+| 📧 Email | [david.escandon.v@gemail.com](mailto:david.escandon.v@gemail.com) |
+| 💼 LinkedIn | [linkedin.com/in/davidescandonv](https://linkedin.com/in/davidescandonv) |
+| 🐙 GitHub | [github.com/daescandon88](https://github.com/daescandon88) |
+| 📍 Location | Montevideo, Uruguay (Remote-first) |
+
+---
+
+*Currently available for new opportunities.*

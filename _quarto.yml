@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "David Escandón"
+  description: "Data Engineer · Analytics Engineer · BI Developer"
+  favicon: assets/img/favicon.ico
+
+  sidebar:
+    style: "docked"
+    search: false
+    background: dark
+    contents:
+      - text: "About"
+        href: index.qmd
+        icon: person-circle
+      - text: "Blog"
+        href: blog/index.qmd
+        icon: journal-text
+      - text: "Projects"
+        href: projects/index.qmd
+        icon: folder2-open
+      - text: "Education"
+        href: education.qmd
+        icon: mortarboard
+      - text: "Certifications"
+        href: certifications.qmd
+        icon: patch-check
+      - text: "Resume / CV"
+        href: resume.qmd
+        icon: file-earmark-person
+      - text: "Contact"
+        href: contact.qmd
+        icon: envelope
+
+  page-footer:
+    left: "© 2025 David Escandón"
+    right:
+      - icon: github
+        href: https://github.com/daescandon88
+      - icon: linkedin
+        href: https://www.linkedin.com/in/davidescandonv
+
+format:
+  html:
+    theme: [lux, assets/css/custom.scss]
+    css: assets/css/styles.css
+    toc: false
+    code-fold: true
+    highlight-style: github
+
+execute:
+  freeze: auto
