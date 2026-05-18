@@ -222,7 +222,7 @@
     "href": "index.html#tech-stack",
     "title": "Hi, I’m David Escandón 👋",
     "section": "Tech stack",
-    "text": "Tech stack\n\n\n\nArea\nTools\n\n\n\n\nLanguages\nPython · SQL · Bash\n\n\nPipelines\ndbt · Airflow · Fivetran · Spark\n\n\nCloud\nGCP · AWS · Azure\n\n\nBI\nPower BI · Looker · Metabase\n\n\nDatabases\nPostgreSQL · BigQuery · Snowflake · DuckDB\n\n\nDevOps\nDocker · Terraform · GitHub Actions\n\n\n\n\nOpen to remote opportunities — let’s talk.",
+    "text": "Tech stack\n\n\n\n\n\n\n\nArea\nTools\n\n\n\n\nLanguages\nSQL · Python (ETL, scripts)\n\n\nData Engineering\nETL · Data Pipelines · Prefect · dbt\n\n\nCloud & Infrastructure\nAzure (VM, Storage, Container Registry, Container Jobs, ADF)\n\n\nData Modeling\nData Warehousing · Relational Databases\n\n\nBI Tools\nPower BI · Tableau\n\n\nTools\nDocker · Git · Pentaho PDI · Unix/Linux\n\n\nDatabases\nPostgreSQL · MSSQL\n\n\n\n\nOpen to remote opportunities — let’s talk.",
     "crumbs": [
       "About"
     ]
