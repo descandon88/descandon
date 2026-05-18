@@ -61,12 +61,13 @@ Delivering dashboards in **Power BI**, **Looker**, and **Metabase** that actuall
 
 | Area | Tools |
 |---|---|
-| Languages | Python · SQL · Bash |
-| Pipelines | dbt · Airflow · Fivetran · Spark |
-| Cloud | GCP · AWS · Azure |
-| BI | Power BI · Looker · Metabase |
-| Databases | PostgreSQL · BigQuery · Snowflake · DuckDB |
-| DevOps | Docker · Terraform · GitHub Actions |
+| Languages | SQL · Python (ETL, scripts) |
+| Data Engineering | ETL · Data Pipelines · Prefect · dbt |
+| Cloud & Infrastructure | Azure (VM, Storage, Container Registry, Container Jobs, ADF) |
+| Data Modeling | Data Warehousing · Relational Databases |
+| BI Tools | Power BI · Tableau |
+| Tools | Docker · Git · Pentaho PDI · Unix/Linux |
+| Databases | PostgreSQL · MSSQL |
 
 ---
 
