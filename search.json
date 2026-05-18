@@ -6,7 +6,7 @@
     "section": "",
     "text": "📍 Montevideo, Uruguay · 📧 david.escandon.v@gemail.com · LinkedIn · GitHub",
     "crumbs": [
-      "Resume / CV"
+      "Experience"
     ]
   },
   {
@@ -16,17 +16,7 @@
     "section": "💼 Work Experience",
     "text": "💼 Work Experience\n\nAnalytics Engineer | BI & Data Operations Lead · Retailogic\nMay 2025 – Present\n\nDesigned and delivered end-to-end data pipelines, enabling reliable data ingestion, transformation, and analytics-ready datasets for business reporting\nTranslated business requirements into scalable data solutions, aligning technical implementations with operational needs\nOrchestrated data workflows using Prefect\nBuilt and maintained SQL and dbt transformations, structuring data for scalable and consistent analytical use\nDeveloped data models and datamarts, reducing dependency on manual reporting and improving data accessibility\nImplemented containerized data workflows using Docker and Azure Container Registry, enabling more scalable and reproducible data processing\nLeveraged Azure services (Storage Accounts, container-based processing) to support data ingestion and data landing architectures\nInitiated implementation of data pipelines using Azure Data Factory, expanding orchestration and integration capabilities\nEstablished data governance practices, improving data quality, consistency, and documentation standards\nManaged Power BI environment and delivered KPI dashboards, enabling better visibility into business performance\n\n\n\nData Analyst | BI Developer · Cognus LATAM\nAug 2023 – Apr 2025\n\nDeveloped and maintained ETL pipelines using Pentaho PDI, ensuring reliable data ingestion and transformation across systems\nBuilt SQL-based transformations and optimized queries, improving performance and usability of analytical datasets\nAutomated batch workflows using Unix scripting, increasing efficiency and reducing processing time\nDesigned dashboards and visualizations in Tableau, enabling stakeholders to access and interpret key business metrics\nPerformed exploratory data analysis (EDA), identifying trends, inconsistencies, and data quality issues\nCollaborated with cross-functional teams in Agile environments, aligning data solutions with business objectives\n\n\n\nBusiness & Engineering Roles · Ciapromase\n2009 – 2023\n\nLed technical and business projects across industrial and commercial domains\nPerformed data analysis on sales, operations, and market segments\nSupported strategic decision-making through data insights",
     "crumbs": [
-      "Resume / CV"
-    ]
-  },
-  {
-    "objectID": "resume.html#education",
-    "href": "resume.html#education",
-    "title": "Resume",
-    "section": "🎓 Education",
-    "text": "🎓 Education\n\nBSc Computer Science · University Name\n2017 – 2021",
-    "crumbs": [
-      "Resume / CV"
+      "Experience"
     ]
   },
   {
@@ -36,7 +26,7 @@
     "section": "🏅 Certifications",
     "text": "🏅 Certifications\n\n\n\nCertification\nIssuer\nCredential\n\n\n\n\nFull Stack Web Developer\nSenpai Academy\nView\n\n\nIntroduction to Data Engineering\nAWS & DeepLearning.AI (Coursera)\nView",
     "crumbs": [
-      "Resume / CV"
+      "Experience"
     ]
   },
   {
@@ -46,7 +36,7 @@
     "section": "🛠️ Technical Skills",
     "text": "🛠️ Technical Skills\n\n\n\n\n\n\n\nCategory\nTechnologies\n\n\n\n\nLanguages\nSQL, Python (ETL, scripts)\n\n\nData Engineering\nETL, Data Pipelines, Prefect, dbt\n\n\nCloud & Infrastructure\nAzure (VM, Storage, Container Registry, Container Jobs, ADF)\n\n\nData Modeling\nData Warehousing, Relational Databases\n\n\nBI Tools\nPower BI, Tableau\n\n\nTools\nDocker, Git, Pentaho PDI, Unix/Linux\n\n\nDatabases\nPostgreSQL, MSSQL",
     "crumbs": [
-      "Resume / CV"
+      "Experience"
     ]
   },
   {
