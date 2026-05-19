@@ -50,44 +50,66 @@
     ]
   },
   {
-    "objectID": "education.html",
-    "href": "education.html",
-    "title": "Education",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "David Escandón",
     "section": "",
-    "text": "Universidad de la República\n\n\n\nUniversidad de la República\n\n\n\nESPOL — Escuela Superior Politécnica del Litoral",
+    "text": "Data Engineer · Analytics Engineer · BI Developer\nI turn raw data into reliable systems and clear insights. Based in Montevideo, Uruguay — working remotely across the stack, from ingestion pipelines to executive dashboards.\nExperience · Projects · Contact"
+  },
+  {
+    "objectID": "index.html#david-escandón",
+    "href": "index.html#david-escandón",
+    "title": "David Escandón",
+    "section": "",
+    "text": "Data Engineer · Analytics Engineer · BI Developer\nI turn raw data into reliable systems and clear insights. Based in Montevideo, Uruguay — working remotely across the stack, from ingestion pipelines to executive dashboards.\nExperience · Projects · Contact"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "I’m open to remote opportunities as a Data Engineer, Analytics Engineer, BI Developer, or Data Analyst.\n\n\n\n📧 Email\ndavid.escandon.v@gemail.com\n\n\n💼 LinkedIn\nlinkedin.com/in/davidescandonv\n\n\n🐙 GitHub\ngithub.com/daescandon88\n\n\n📍 Location\nMontevideo, Uruguay (Remote-first)\n\n\n\n\nCurrently available for new opportunities.",
     "crumbs": [
-      "Education"
+      "Contact"
     ]
   },
   {
-    "objectID": "education.html#academic-background",
-    "href": "education.html#academic-background",
-    "title": "Education",
+    "objectID": "contact.html#lets-connect",
+    "href": "contact.html#lets-connect",
+    "title": "Contact",
     "section": "",
-    "text": "Universidad de la República\n\n\n\nUniversidad de la República\n\n\n\nESPOL — Escuela Superior Politécnica del Litoral",
+    "text": "I’m open to remote opportunities as a Data Engineer, Analytics Engineer, BI Developer, or Data Analyst.\n\n\n\n📧 Email\ndavid.escandon.v@gemail.com\n\n\n💼 LinkedIn\nlinkedin.com/in/davidescandonv\n\n\n🐙 GitHub\ngithub.com/daescandon88\n\n\n📍 Location\nMontevideo, Uruguay (Remote-first)\n\n\n\n\nCurrently available for new opportunities.",
     "crumbs": [
-      "Education"
+      "Contact"
     ]
   },
   {
-    "objectID": "certifications.html",
-    "href": "certifications.html",
-    "title": "Certifications",
+    "objectID": "blog/posts/first-post/index.html",
+    "href": "blog/posts/first-post/index.html",
+    "title": "Why I Switched from SQL Stored Procedures to dbt",
     "section": "",
-    "text": "Senpai Academy View credential\n\n\n\nAWS & DeepLearning.AI — Coursera View credential",
-    "crumbs": [
-      "Certifications"
-    ]
+    "text": "Write your post here. Quarto supports Python/R code blocks, Mermaid diagrams, LaTeX math, and standard Markdown."
   },
   {
-    "objectID": "certifications.html#certifications",
-    "href": "certifications.html#certifications",
-    "title": "Certifications",
+    "objectID": "blog/posts/first-post/index.html#introduction",
+    "href": "blog/posts/first-post/index.html#introduction",
+    "title": "Why I Switched from SQL Stored Procedures to dbt",
     "section": "",
-    "text": "Senpai Academy View credential\n\n\n\nAWS & DeepLearning.AI — Coursera View credential",
-    "crumbs": [
-      "Certifications"
-    ]
+    "text": "Write your post here. Quarto supports Python/R code blocks, Mermaid diagrams, LaTeX math, and standard Markdown."
+  },
+  {
+    "objectID": "blog/posts/first-post/index.html#code-example",
+    "href": "blog/posts/first-post/index.html#code-example",
+    "title": "Why I Switched from SQL Stored Procedures to dbt",
+    "section": "Code Example",
+    "text": "Code Example\nimport duckdb\n\nquery = \"\"\"\nSELECT\n    customer_id,\n    SUM(order_total) AS lifetime_value,\n    COUNT(*) AS total_orders\nFROM orders\nWHERE status = 'completed'\nGROUP BY 1\n\"\"\"\nduckdb.sql(query).show()"
+  },
+  {
+    "objectID": "blog/posts/first-post/index.html#conclusion",
+    "href": "blog/posts/first-post/index.html#conclusion",
+    "title": "Why I Switched from SQL Stored Procedures to dbt",
+    "section": "Conclusion",
+    "text": "Conclusion\nYour takeaways here."
   },
   {
     "objectID": "blog/index.html",
@@ -130,91 +152,83 @@
     ]
   },
   {
-    "objectID": "blog/posts/first-post/index.html",
-    "href": "blog/posts/first-post/index.html",
-    "title": "Why I Switched from SQL Stored Procedures to dbt",
+    "objectID": "certifications.html",
+    "href": "certifications.html",
+    "title": "Certifications",
     "section": "",
-    "text": "Write your post here. Quarto supports Python/R code blocks, Mermaid diagrams, LaTeX math, and standard Markdown."
-  },
-  {
-    "objectID": "blog/posts/first-post/index.html#introduction",
-    "href": "blog/posts/first-post/index.html#introduction",
-    "title": "Why I Switched from SQL Stored Procedures to dbt",
-    "section": "",
-    "text": "Write your post here. Quarto supports Python/R code blocks, Mermaid diagrams, LaTeX math, and standard Markdown."
-  },
-  {
-    "objectID": "blog/posts/first-post/index.html#code-example",
-    "href": "blog/posts/first-post/index.html#code-example",
-    "title": "Why I Switched from SQL Stored Procedures to dbt",
-    "section": "Code Example",
-    "text": "Code Example\nimport duckdb\n\nquery = \"\"\"\nSELECT\n    customer_id,\n    SUM(order_total) AS lifetime_value,\n    COUNT(*) AS total_orders\nFROM orders\nWHERE status = 'completed'\nGROUP BY 1\n\"\"\"\nduckdb.sql(query).show()"
-  },
-  {
-    "objectID": "blog/posts/first-post/index.html#conclusion",
-    "href": "blog/posts/first-post/index.html#conclusion",
-    "title": "Why I Switched from SQL Stored Procedures to dbt",
-    "section": "Conclusion",
-    "text": "Conclusion\nYour takeaways here."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "I’m open to remote opportunities as a Data Engineer, Analytics Engineer, BI Developer, or Data Analyst.\n\n\n\n📧 Email\ndavid.escandon.v@gemail.com\n\n\n💼 LinkedIn\nlinkedin.com/in/davidescandonv\n\n\n🐙 GitHub\ngithub.com/daescandon88\n\n\n📍 Location\nMontevideo, Uruguay (Remote-first)\n\n\n\n\nCurrently available for new opportunities.",
+    "text": "Senpai Academy View credential\n\n\n\nAWS & DeepLearning.AI — Coursera View credential",
     "crumbs": [
-      "Contact"
+      "Certifications"
     ]
   },
   {
-    "objectID": "contact.html#lets-connect",
-    "href": "contact.html#lets-connect",
-    "title": "Contact",
+    "objectID": "certifications.html#certifications",
+    "href": "certifications.html#certifications",
+    "title": "Certifications",
     "section": "",
-    "text": "I’m open to remote opportunities as a Data Engineer, Analytics Engineer, BI Developer, or Data Analyst.\n\n\n\n📧 Email\ndavid.escandon.v@gemail.com\n\n\n💼 LinkedIn\nlinkedin.com/in/davidescandonv\n\n\n🐙 GitHub\ngithub.com/daescandon88\n\n\n📍 Location\nMontevideo, Uruguay (Remote-first)\n\n\n\n\nCurrently available for new opportunities.",
+    "text": "Senpai Academy View credential\n\n\n\nAWS & DeepLearning.AI — Coursera View credential",
     "crumbs": [
-      "Contact"
+      "Certifications"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hi, I’m David Escandón 👋",
+    "objectID": "education.html",
+    "href": "education.html",
+    "title": "Education",
     "section": "",
-    "text": "I build data systems that turn raw information into decisions. With experience across the full data stack — from ingestion pipelines to executive dashboards — I help teams move faster with data they can trust.\n\nView Projects Read Blog Download CV",
+    "text": "Universidad de la República\n\n\n\nUniversidad de la República\n\n\n\nESPOL — Escuela Superior Politécnica del Litoral",
     "crumbs": [
-      "About"
+      "Education"
     ]
   },
   {
-    "objectID": "index.html#what-i-do",
-    "href": "index.html#what-i-do",
-    "title": "Hi, I’m David Escandón 👋",
-    "section": "What I do",
-    "text": "What I do\n\n\nData Engineering\nBuilding reliable ELT pipelines with dbt, Airflow, and cloud-native tools (BigQuery, Snowflake, Redshift).\n\n\nAnalytics Engineering\nDesigning semantic layers and dimensional models so analysts can self-serve with confidence.\n\n\nBI & Visualization\nDelivering dashboards in Power BI, Looker, and Metabase that actually get used.",
+    "objectID": "education.html#academic-background",
+    "href": "education.html#academic-background",
+    "title": "Education",
+    "section": "",
+    "text": "Universidad de la República\n\n\n\nUniversidad de la República\n\n\n\nESPOL — Escuela Superior Politécnica del Litoral",
     "crumbs": [
-      "About"
+      "Education"
     ]
   },
   {
-    "objectID": "index.html#latest-from-the-blog",
-    "href": "index.html#latest-from-the-blog",
-    "title": "Hi, I’m David Escandón 👋",
-    "section": "Latest from the blog",
-    "text": "Latest from the blog\n→ See all posts",
+    "objectID": "personal.html",
+    "href": "personal.html",
+    "title": "Personal",
+    "section": "",
+    "text": "This is a space beyond the resume — things that shape how I think and who I am.",
     "crumbs": [
-      "About"
+      "Personal"
     ]
   },
   {
-    "objectID": "index.html#tech-stack",
-    "href": "index.html#tech-stack",
-    "title": "Hi, I’m David Escandón 👋",
-    "section": "Tech stack",
-    "text": "Tech stack\n\n\n\n\n\n\n\nArea\nTools\n\n\n\n\nLanguages\nSQL · Python (ETL, scripts)\n\n\nData Engineering\nETL · Data Pipelines · Prefect · dbt\n\n\nCloud & Infrastructure\nAzure (VM, Storage, Container Registry, Container Jobs, ADF)\n\n\nData Modeling\nData Warehousing · Relational Databases\n\n\nBI Tools\nPower BI · Tableau\n\n\nTools\nDocker · Git · Pentaho PDI · Unix/Linux\n\n\nDatabases\nPostgreSQL · MSSQL\n\n\n\n\nOpen to remote opportunities — let’s talk.",
+    "objectID": "personal.html#interests",
+    "href": "personal.html#interests",
+    "title": "Personal",
+    "section": "Interests",
+    "text": "Interests\nWrite about your personal interests here.",
     "crumbs": [
-      "About"
+      "Personal"
+    ]
+  },
+  {
+    "objectID": "personal.html#spirituality",
+    "href": "personal.html#spirituality",
+    "title": "Personal",
+    "section": "Spirituality",
+    "text": "Spirituality\nWrite about your spiritual path, practices, or beliefs here.",
+    "crumbs": [
+      "Personal"
+    ]
+  },
+  {
+    "objectID": "personal.html#outside-work",
+    "href": "personal.html#outside-work",
+    "title": "Personal",
+    "section": "Outside work",
+    "text": "Outside work\nWrite about hobbies, books, travel, or anything else that defines you outside of data.",
+    "crumbs": [
+      "Personal"
     ]
   },
   {
