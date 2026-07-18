@@ -1,0 +1,138 @@
+---
+title: "From Search to Agents: What I've Learned Building LLM Applications from Scratch"
+description: "A progress report from LLM Zoomcamp — covering RAG pipelines, vector search, workflow orchestration, and evaluation."
+author: "David Escandón"
+date: 2026-07-18
+categories: [LLM, RAG, AI Agents]
+---
+
+<style>
+#title-block-header h1.title,
+#title-block-header .description {
+  display: none;
+}
+</style>
+
+::: {.lang-en}
+
+# From Search to Agents: What I've Learned Building LLM Applications from Scratch
+
+---
+
+Over the past weeks I have been working through [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp), a free, hands-on course by DataTalks.Club focused on building production-ready Large Language Model applications. Rather than treating LLMs as black boxes, the course insists on understanding what is happening at each layer: how documents are retrieved, how prompts are constructed, how models are called, and critically, how the quality of all of the above is measured.
+
+Everything runs inside Docker containers. No local installs, no environment conflicts — each module has its own isolated service and Jupyter notebook. This forces good habits early: reproducibility is a first-class concern, not an afterthought.
+
+Below is a summary of the concepts I have worked through so far, written as a reference for anyone following a similar path.
+
+---
+
+## Module 01 — Retrieval-Augmented Generation and Agentic Pipelines
+
+### The problem RAG solves
+
+A general-purpose language model is trained on a broad snapshot of the internet. It knows a great deal about the world, but it knows nothing about your specific dataset, your company's internal documentation, or questions that postdate its training cutoff. If you ask it something domain-specific, it will either hallucinate a plausible-sounding answer or admit ignorance.
+
+**Retrieval-Augmented Generation** addresses this by separating the problem into two steps:
+
+1. **Retrieve** the most relevant documents from a knowledge base, given the user's question.
+2. **Generate** an answer by presenting those documents as context to the model alongside the question.
+
+The model never needs to "remember" the documents. It reads them fresh on every query. This makes the system both more accurate and easier to update — you change the knowledge base, not the model.
+
+### Building a keyword search index
+
+The first retrieval mechanism I implemented was keyword-based search using `minsearch`, a lightweight in-memory library. Documents from the DataTalks.Club FAQ — over 1,300 entries across multiple courses — are loaded at runtime and indexed in seconds.
+
+Two concepts are worth understanding here:
+
+- **Field boosting**: not all text fields carry equal weight. A match in the `question` field is a stronger signal than a match in the `section` field. Assigning a higher boost to `question` (e.g., 3.0 vs 0.5) improves retrieval precision without any model involvement.
+- **Hard filtering**: before ranking by relevance, you can restrict the search space by an exact attribute. Filtering by `course = "llm-zoomcamp"` ensures results are always course-specific, regardless of how generic the query is.
+
+### Prompt engineering
+
+Retrieval alone is not enough — the model still needs to be told what to do with the retrieved content. The prompt template I used separates two concerns:
+
+- **System instructions** (`INSTRUCTIONS`): define the model's role and constraints — *"Answer only from the provided context. If the answer is not there, say so."*
+- **User prompt** (`USER_PROMPT_TEMPLATE`): inject the question and the retrieved context into a structured format.
+
+This separation makes the system easier to iterate on. Changing the model's behavior is a matter of editing the instructions, not restructuring the entire prompt.
+
+### The agentic loop
+
+The standard RAG pipeline always retrieves documents, regardless of whether the question actually needs them. An **agentic pipeline** inverts the control: the model is given a `search` tool defined in the OpenAI function-calling schema, and it decides autonomously whether and what to search.
+
+The interaction cycle is:
+
+1. Send the user's message and the tool definition to the model.
+2. If the model returns a tool call, execute the search and append the results to the conversation history.
+3. Send the extended history back to the model.
+4. Repeat until the model returns a plain text response with no further tool calls.
+
+This loop — often called the **agentic loop** — is the conceptual backbone behind modern AI agents. The model is no longer a stateless function; it orchestrates its own information-gathering process across multiple turns.
+
+---
+
+:::
+
+::: {.lang-es}
+
+# De la búsqueda a los agentes: lo que he aprendido construyendo aplicaciones LLM desde cero
+
+---
+
+Durante las últimas semanas he estado trabajando en [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp), un curso gratuito y práctico de DataTalks.Club enfocado en construir aplicaciones de Large Language Models listas para producción. En lugar de tratar a los LLMs como cajas negras, el curso insiste en entender qué pasa en cada capa: cómo se recuperan los documentos, cómo se construyen los prompts, cómo se llama a los modelos y, de forma crítica, cómo se mide la calidad de todo lo anterior.
+
+Todo corre dentro de contenedores Docker. Sin instalaciones locales, sin conflictos de entorno — cada módulo tiene su propio servicio aislado y su propio notebook de Jupyter. Esto obliga a adoptar buenas prácticas desde el principio: la reproducibilidad es una prioridad de primer nivel, no un detalle posterior.
+
+A continuación, un resumen de los conceptos que he trabajado hasta ahora, escrito como referencia para cualquiera que siga un camino parecido.
+
+---
+
+## Módulo 01 — Retrieval-Augmented Generation y pipelines agénticos
+
+### El problema que resuelve RAG
+
+Un modelo de lenguaje de propósito general se entrena sobre una muestra amplia de internet. Sabe mucho sobre el mundo, pero no sabe nada sobre tu dataset específico, la documentación interna de tu empresa, o preguntas posteriores a su fecha de corte de entrenamiento. Si le preguntas algo específico de un dominio, o alucina una respuesta que suena plausible, o admite que no lo sabe.
+
+**Retrieval-Augmented Generation** aborda esto separando el problema en dos pasos:
+
+1. **Recuperar** los documentos más relevantes de una base de conocimiento, dada la pregunta del usuario.
+2. **Generar** una respuesta presentando esos documentos como contexto al modelo, junto con la pregunta.
+
+El modelo nunca necesita "recordar" los documentos. Los lee de nuevo en cada consulta. Esto hace que el sistema sea más preciso y más fácil de actualizar — cambias la base de conocimiento, no el modelo.
+
+### Construyendo un índice de búsqueda por palabras clave
+
+El primer mecanismo de recuperación que implementé fue búsqueda basada en palabras clave usando `minsearch`, una librería ligera en memoria. Los documentos del FAQ de DataTalks.Club — más de 1,300 entradas repartidas en varios cursos — se cargan en tiempo de ejecución y se indexan en segundos.
+
+Vale la pena entender dos conceptos aquí:
+
+- **Boosting de campos**: no todos los campos de texto tienen el mismo peso. Un match en el campo `question` es una señal más fuerte que un match en el campo `section`. Asignar un boost mayor a `question` (por ejemplo, 3.0 frente a 0.5) mejora la precisión de la recuperación sin involucrar ningún modelo.
+- **Filtrado estricto (hard filtering)**: antes de ordenar por relevancia, puedes restringir el espacio de búsqueda por un atributo exacto. Filtrar por `course = "llm-zoomcamp"` asegura que los resultados sean siempre específicos del curso, sin importar cuán genérica sea la consulta.
+
+### Ingeniería de prompts
+
+La recuperación por sí sola no basta — el modelo todavía necesita que le digan qué hacer con el contenido recuperado. La plantilla de prompt que usé separa dos responsabilidades:
+
+- **Instrucciones de sistema** (`INSTRUCTIONS`): definen el rol y las restricciones del modelo — *"Responde solo a partir del contexto proporcionado. Si la respuesta no está ahí, dilo."*
+- **Prompt de usuario** (`USER_PROMPT_TEMPLATE`): inyecta la pregunta y el contexto recuperado en un formato estructurado.
+
+Esta separación facilita iterar sobre el sistema. Cambiar el comportamiento del modelo es cuestión de editar las instrucciones, no de reestructurar todo el prompt.
+
+### El loop agéntico
+
+El pipeline RAG estándar siempre recupera documentos, sin importar si la pregunta realmente los necesita. Un **pipeline agéntico** invierte el control: al modelo se le da una herramienta `search` definida con el esquema de function-calling de OpenAI, y es él quien decide de forma autónoma si buscar y qué buscar.
+
+El ciclo de interacción es:
+
+1. Enviar el mensaje del usuario y la definición de la herramienta al modelo.
+2. Si el modelo devuelve una llamada a herramienta, ejecutar la búsqueda y añadir los resultados al historial de la conversación.
+3. Enviar el historial extendido de vuelta al modelo.
+4. Repetir hasta que el modelo devuelva una respuesta de texto plano sin más llamadas a herramientas.
+
+Este loop — a menudo llamado **agentic loop** — es la columna vertebral conceptual detrás de los agentes de IA modernos. El modelo deja de ser una función sin estado; orquesta su propio proceso de búsqueda de información a través de múltiples turnos.
+
+---
+
+:::

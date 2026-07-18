@@ -6,6 +6,8 @@ date: 2025-01-15
 categories: [dbt, SQL, Data Engineering]
 ---
 
+::: {.lang-en}
+
 ## Introduction
 Write your post here. Quarto supports Python/R code blocks, Mermaid diagrams,
 LaTeX math, and standard Markdown.
@@ -29,3 +31,33 @@ duckdb.sql(query).show()
 
 ## Conclusion
 Your takeaways here.
+
+:::
+
+::: {.lang-es}
+
+## Introducción
+Escribe tu artículo aquí. Quarto admite bloques de código en Python/R, diagramas
+Mermaid, fórmulas LaTeX y Markdown estándar.
+
+## Ejemplo de código
+
+```python
+import duckdb
+
+query = """
+SELECT
+    customer_id,
+    SUM(order_total) AS lifetime_value,
+    COUNT(*) AS total_orders
+FROM orders
+WHERE status = 'completed'
+GROUP BY 1
+"""
+duckdb.sql(query).show()
+```
+
+## Conclusión
+Tus conclusiones aquí.
+
+:::

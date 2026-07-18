@@ -1,45 +1,109 @@
 /*-- scss:defaults --*/
 
-$primary: #4361ee;
-$link-color: #4361ee;
-$font-family-sans-serif: "Inter", system-ui, sans-serif;
+$primary: #1a1a1a;
+$link-color: #1a1a1a;
+$font-family-sans-serif: "Source Serif 4", Georgia, serif;
+$font-size-base: 1.2rem;
+$line-height-base: 1.85;
+$headings-font-family: "Source Serif 4", Georgia, serif;
 $headings-font-weight: 700;
+$body-color: #1a1a1a;
+$body-bg: #fff;
 
 /*-- scss:rules --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
-/* Hero section */
-.hero-section {
-  padding: 3rem 0 2rem 0;
-  max-width: 780px;
+/* Global reading column — Medium-style narrow centered content */
+.page-columns .column-body,
+.page-columns .column-page-left,
+article {
+  max-width: 680px;
+}
 
-  h1 {
-    font-size: 2.6rem;
-    line-height: 1.15;
-    margin-bottom: 0.4rem;
-  }
+body {
+  -webkit-font-smoothing: antialiased;
+}
 
-  h3 {
-    font-weight: 400;
-    color: #666;
-    font-size: 1.1rem;
-    margin-bottom: 1.4rem;
-  }
+/* Headings */
+h1, h2, h3, h4 {
+  color: #1a1a1a;
+  letter-spacing: -0.01em;
+}
 
-  p {
-    font-size: 1.1rem;
-    color: #444;
-    max-width: 620px;
-    line-height: 1.7;
+h1 { font-size: 2.2rem; line-height: 1.2; }
+h2 { font-size: 1.6rem; line-height: 1.3; margin-top: 2.4rem; }
+h3 { font-size: 1.2rem; margin-top: 1.8rem; }
+
+/* Links — Medium style: underline on hover only */
+a {
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 1px solid #d0d0d0;
+
+  &:hover {
+    border-bottom-color: #1a1a1a;
   }
 }
 
-.hero-links {
-  margin-top: 1.8rem;
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid #e8e8e8;
+  margin: 2.5rem 0;
+}
+
+/* Sidebar title white */
+.sidebar-title a,
+.sidebar-title {
+  color: #ffffff !important;
+}
+
+/* About — two column layout */
+.about-hero {
   display: flex;
-  gap: 0.8rem;
-  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+  margin: 3rem 0;
+}
+
+.about-photo {
+  flex-shrink: 0;
+  line-height: 0;
+
+  p { margin: 0; padding: 0; }
+
+  img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+  }
+}
+
+.about-text {
+  flex: 1;
+
+  h2 {
+    font-size: 1.9rem;
+    margin-bottom: 0.2rem;
+  }
+
+  strong {
+    font-size: 0.95rem;
+    color: #555;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+
+  p {
+    color: #333;
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin: 1rem 0;
+  }
 }
 
 /* Cards grid */
@@ -51,20 +115,14 @@ $headings-font-weight: 700;
 }
 
 .card {
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-  border-radius: 10px;
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
   padding: 1.4rem 1.6rem;
-  transition: box-shadow 0.2s ease;
-
-  &:hover {
-    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-  }
 
   h3 {
     font-size: 1rem;
     margin-bottom: 0.5rem;
-    color: #1a1a1a;
   }
 
   p {
@@ -74,10 +132,10 @@ $headings-font-weight: 700;
   }
 }
 
-/* Education entries */
+/* Education & certification entries */
 .edu-entry {
-  border-left: 3px solid $primary;
-  padding: 0.6rem 0 0.6rem 1.2rem;
+  border-left: 2px solid #e8e8e8;
+  padding: 0.4rem 0 0.4rem 1.2rem;
   margin-bottom: 1.6rem;
 
   h3 {

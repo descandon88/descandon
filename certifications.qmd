@@ -5,13 +5,15 @@ title: "Certifications"
 ## 🏅 Certifications
 
 ::: {.edu-entry}
+### Introduction to Data Engineering
+**AWS & DeepLearning.AI — Coursera**
+[View credential](https://coursera.org/share/d4992b241a249e87b4d257266a2c303d)
+:::
+
+::: {.edu-entry}
 ### Full Stack Web Developer
 **Senpai Academy**
 [View credential](https://credsverse.com/credentials/9b5fef11-38a0-4894-8f88-c1f1fc641c19)
 :::
 
-::: {.edu-entry}
-### Introduction to Data Engineering
-**AWS & DeepLearning.AI — Coursera**
-[View credential](https://coursera.org/share/d4992b241a249e87b4d257266a2c303d)
-:::
+

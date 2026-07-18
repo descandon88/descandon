@@ -2,73 +2,28 @@
 title: ""
 format:
   html:
-    page-layout: full
+    page-layout: article
     toc: false
 ---
 
-::: {.hero-section}
+::: {.about-hero}
 
-# Hi, I'm **David Escandón** 👋
+::: {.about-photo}
+![](assets/img/1779146310051.jpg)
+:::
 
-### Data Engineer · Analytics Engineer · BI Developer
+::: {.about-text}
 
-I build data systems that turn raw information into decisions.
-With experience across the full data stack — from ingestion pipelines to executive dashboards —
-I help teams move faster with data they can trust.
+## David Escandón
 
-::: {.hero-links}
-[View Projects](projects/index.qmd){.btn .btn-primary}
-[Read Blog](blog/index.qmd){.btn .btn-outline-secondary}
-[Download CV](resume.qmd){.btn .btn-outline-secondary}
+**Data Engineer · Analytics Engineer · BI Developer**
+
+I turn raw data into reliable systems and clear insights.
+Based in Montevideo, Uruguay — working remotely across the stack,
+from ingestion pipelines to executive dashboards.
+
+[Experience](resume.qmd) · [Projects](projects/index.qmd) · [Contact](contact.qmd)
+
 :::
 
 :::
-
----
-
-## What I do
-
-::: {.card-grid}
-
-::: {.card}
-### Data Engineering
-Building reliable ELT pipelines with **dbt**, **Airflow**, and cloud-native tools (BigQuery, Snowflake, Redshift).
-:::
-
-::: {.card}
-### Analytics Engineering
-Designing semantic layers and dimensional models so analysts can self-serve with confidence.
-:::
-
-::: {.card}
-### BI & Visualization
-Delivering dashboards in **Power BI**, **Looker**, and **Metabase** that actually get used.
-:::
-
-:::
-
----
-
-## Latest from the blog
-
-```{=html}
-<p><a href="blog/index.qmd">→ See all posts</a></p>
-```
-
----
-
-## Tech stack
-
-| Area | Tools |
-|---|---|
-| Languages | SQL · Python (ETL, scripts) |
-| Data Engineering | ETL · Data Pipelines · Prefect · dbt |
-| Cloud & Infrastructure | Azure (VM, Storage, Container Registry, Container Jobs, ADF) |
-| Data Modeling | Data Warehousing · Relational Databases |
-| BI Tools | Power BI · Tableau |
-| Tools | Docker · Git · Pentaho PDI · Unix/Linux |
-| Databases | PostgreSQL · MSSQL |
-
----
-
-*Open to remote opportunities — [let's talk](contact.qmd).*

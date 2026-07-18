@@ -12,9 +12,6 @@ website:
     search: false
     background: dark
     contents:
-      - text: "About"
-        href: index.qmd
-        icon: person-circle
       - text: "Blog"
         href: blog/index.qmd
         icon: journal-text
@@ -30,12 +27,15 @@ website:
       - text: "Experience"
         href: resume.qmd
         icon: file-earmark-person
+      - text: "Personal"
+        href: personal.qmd
+        icon: house
       - text: "Contact"
         href: contact.qmd
         icon: envelope
 
   page-footer:
-    left: "© 2025 David Escandón"
+    left: "© 2026 David Escandón"
     right:
       - icon: github
         href: https://github.com/daescandon88
@@ -44,7 +44,7 @@ website:
 
 format:
   html:
-    theme: [lux, assets/css/custom.scss]
+    theme: [flatly, assets/css/custom.scss]
     css: assets/css/styles.css
     toc: false
     code-fold: true
