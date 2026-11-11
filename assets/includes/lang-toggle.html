@@ -6,19 +6,24 @@
   top: 14px;
   right: 16px;
   z-index: 1030;
-  padding: 0.3rem 0.7rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  background: #1a1a1a;
-  color: #fff;
-  border: 1px solid #1a1a1a;
-  border-radius: 4px;
+  padding: 6px 14px;
+  font-family: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  color: #0b0b0b;
+  border: 1px solid rgba(11, 11, 11, 0.12);
+  border-radius: 999px;
   cursor: pointer;
+  transition: transform 0.2s, border-color 0.2s;
 }
 
 #lang-toggle-btn:hover {
-  opacity: 0.85;
+  transform: translateY(-1px);
+  border-color: rgba(11, 11, 11, 0.3);
 }
 
 html[data-lang="en"] .lang-es { display: none !important; }

@@ -10,7 +10,7 @@ website:
   sidebar:
     style: "docked"
     search: false
-    background: dark
+    background: light
     contents:
       - text: "Blog"
         href: blog/index.qmd
