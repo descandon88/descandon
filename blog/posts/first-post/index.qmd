@@ -4,6 +4,7 @@ description: "A practical perspective from 3 years working in data warehousing"
 author: "Your Name"
 date: 2025-01-15
 categories: [dbt, SQL, Data Engineering]
+draft: true
 ---
 
 ::: {.lang-en}
